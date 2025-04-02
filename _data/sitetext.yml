@@ -143,6 +143,43 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
       - url: https://example.com
         icon: "fas fa-globe"
+
+  service_areas:
+    title: "Service Areas"
+    regions:
+      - region: "York Region"
+        cities:
+          - Vaughan
+          - Richmond Hill
+          - Markham
+          - Whitchurch-Stouffville
+          - Aurora
+          - Newmarket
+          - King
+          - East Gwillimbury
+      - region: "Toronto"
+        cities:
+          - Downtown Toronto
+          - North York
+          - Scarborough
+          - Etobicoke
+          - York
+      - region: "Peel Region"
+        cities:
+          - Brampton
+          - Mississauga
+          - Caledon
+      - region: "Durham Region"
+        cities:
+          - Pickering
+          - Ajax
+          - Whitby
+          - Oshawa
+          - Clarington
+          - Scugog
+          - Uxbridge
+          - Brock
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
